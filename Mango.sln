@@ -7,9 +7,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{CF
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mango.Services.CouponAPI", "Services\Mango.Services.CouponAPI\Mango.Services.CouponAPI.csproj", "{E44309C4-57CF-4110-AE61-CB0F222CBC03}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mango.Services.AuthAPI", "Mango.Services.AuthAPI\Mango.Services.AuthAPI.csproj", "{DE74822C-80A0-455E-B23E-E7ACD1F17EC9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mango.Services.AuthAPI", "Services\Mango.Services.AuthAPI\Mango.Services.AuthAPI.csproj", "{DE74822C-80A0-455E-B23E-E7ACD1F17EC9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mango.Services.ProductAPI", "Mango.Services.ProductAPI\Mango.Services.ProductAPI.csproj", "{529A4BDF-5B0B-4B7F-9468-ACEBB3E2220B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mango.Services.ProductAPI", "Services\Mango.Services.ProductAPI\Mango.Services.ProductAPI.csproj", "{529A4BDF-5B0B-4B7F-9468-ACEBB3E2220B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mango.Services.ShoppingCartAPI", "Services\Mango.Services.ShoppingCartAPI\Mango.Services.ShoppingCartAPI.csproj", "{0186AC9C-B86D-4B8E-A572-727EBE31372C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +31,10 @@ Global
 		{529A4BDF-5B0B-4B7F-9468-ACEBB3E2220B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{529A4BDF-5B0B-4B7F-9468-ACEBB3E2220B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{529A4BDF-5B0B-4B7F-9468-ACEBB3E2220B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0186AC9C-B86D-4B8E-A572-727EBE31372C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0186AC9C-B86D-4B8E-A572-727EBE31372C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0186AC9C-B86D-4B8E-A572-727EBE31372C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0186AC9C-B86D-4B8E-A572-727EBE31372C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -37,6 +43,7 @@ Global
 		{E44309C4-57CF-4110-AE61-CB0F222CBC03} = {CF0CF3EA-1025-4E50-AE29-A8521589FDE5}
 		{DE74822C-80A0-455E-B23E-E7ACD1F17EC9} = {CF0CF3EA-1025-4E50-AE29-A8521589FDE5}
 		{529A4BDF-5B0B-4B7F-9468-ACEBB3E2220B} = {CF0CF3EA-1025-4E50-AE29-A8521589FDE5}
+		{0186AC9C-B86D-4B8E-A572-727EBE31372C} = {CF0CF3EA-1025-4E50-AE29-A8521589FDE5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D1C7F810-94BA-49EA-BC33-5AC35E6D59D9}
